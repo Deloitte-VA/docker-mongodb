@@ -1,12 +1,13 @@
 language: python
 
-env:
-  global:
-  	secure: "EUbUNpzGRmqak0SQwcjGd7l+o1EwXJpcfK/kZJwy8mrTZdGFqy4uN83FO7WLqLc/0Fn03TBGSIKm/6nf0OEoXKPX6n07rg+6A8OAbF8YXtdl80qAcwlYrgcWI7Jd6W6WSETZEqRKlEmScpTGvsZnaWbssSur5Fja2jSWtGy02Hc="
-
 install:
-  - sudo apt-get update && sudo apt-get install -y zip unzip docker.io 
-  - pip install -r requirements.txt
+- sudo apt-get update && sudo apt-get install -y zip unzip docker.io
+- pip install -r requirements.txt
 
 script:
-  - python -m py.test test -v
+- python -m py.test test -v
+
+notifications:
+  hipchat:
+    rooms:
+      secure: kyxURp82fWqRujQQBribXZH/y63p8HThc/TM9rFGDjRFjNNx+CsoaGQAGxe5JFdfbDayKa5r3FBFga6SqXKCmlZs5bSywwELqlDg0A5XCago1I6NZoIuBj4Whiz7g6p+7bH7H7WkdgWWrtybzDX/stshqWOJ4U2dhVqIBYc4mAA=
