@@ -9,7 +9,7 @@ def generate_name( gender ):
   last_name = names.get_last_name()
   return (first_name, last_name)
 
-def generate_date():
+# def generate_date():
   # put code here
 
 def generate_race():
@@ -20,29 +20,29 @@ def generate_gender():
   # put code here
   return random.choice([(1, "male"), (2, "female"), (3, "other")])[0]
 
-def generate_pce():
+#def generate_pce():
 	#put code here
 
-def generate_patient():
+#def generate_patient():
 	#put code here
 
-def generate_observation():
+#def generate_observation():
 	# put code here
 
-def generate_encounter():
+#def generate_encounter():
 	# put code here
 
-def convert_pce_to_json( pce ):
+#def convert_pce_to_json( pce ):
 	# put code here
 
-def convert_patient_to_json( patient ):
+#def convert_patient_to_json( patient ):
 	# put code here
 
-def convert_encounter_to_json( encounter ):
+#def convert_encounter_to_json( encounter ):
 	# put code here
 
-def main():
+# def main():
   #put code here for execution
 
-if __name__ == __main__():
+if __name__ == "__main__":
   main()
