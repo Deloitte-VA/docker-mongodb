@@ -9,4 +9,4 @@ Release Procedures:
 
 Travis-CI Build Status
 ---------------------
-![Build Status](https://travis-ci.org/jlgrock/snp-prototype-mongodb.svg?branch=master)
+![Build Status](https://travis-ci.org/Deloitte-VA/snp-prototype-mongodb.svg?branch=master)
