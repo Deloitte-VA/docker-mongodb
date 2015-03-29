@@ -7,6 +7,9 @@ Release Procedures:
   - sudo docker build -t jlgrock/snp-prototype-mongodb
   - sudo docker push jlgrock/snp-prototype-mongodb
 
+Run Procedures:
+  - see [Docker Hub](https://registry.hub.docker.com/u/jlgrock/snp-prototype-mongodb/)
+
 Travis-CI Build Status
 ---------------------
 ![Build Status](https://travis-ci.org/Deloitte-VA/snp-prototype-mongodb.svg?branch=master)
