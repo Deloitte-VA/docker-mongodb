@@ -8,7 +8,7 @@ Development Procedures:
 
 Release Procedures:
   - `sudo docker build -t jlgrock/snp-prototype-mongodb`
-  - `sudo docker push jlgrock/snp-prototype-mongodb:[VERSION]` (replacing [VERSION] wit the actual version number)
+  - `sudo docker push jlgrock/snp-prototype-mongodb:[VERSION]` (replacing [VERSION] with the actual version number)
 
 Run Procedures:
   - see [Docker Hub](https://registry.hub.docker.com/u/jlgrock/snp-prototype-mongodb/)
