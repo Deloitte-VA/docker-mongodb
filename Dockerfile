@@ -1,4 +1,4 @@
-FROM mongo
+FROM mongo:3.0.1
 MAINTAINER Justin Grant "http://www.justinleegrant.com"
 
 # update apt
