@@ -23,16 +23,16 @@ print("starting inserts...");
 //PCE collection.
 mydb.pces.insert( 
 	[
-		{ "_id": NumberLong(5695930304), "desc": "5695930315 |Systolic Blood Pressure (Observable Entity)| + 5695444314 |Procedure on upper arm| + 5695444316 |Right upper arm structure (body structure)|" }, 
-		{ "_id": NumberLong(5695930307), "desc": "5695444313 |Diastolic Blood Pressure (Observable Entity)| + 5695444314 |Procedure on upper arm| + 5695444316 |Right upper arm structure (body structure)|" }, 
-		{ "_id": NumberLong(5695930310), "desc": "5695930315 |Systolic Blood Pressure (Observable Entity)| + 5695444314 |Procedure on upper arm| + 5695444315 |Left upper arm structure (body structure)|" }, 
-		{ "_id": NumberLong(5695930313), "desc": "5695444313 |Diastolic Blood Pressure (Observable Entity)| + 5695444314 |Procedure on upper arm| + 5695444315 |Left upper arm structure (body structure)|" },
+		{ "_id": NumberInt(5695930304), "desc": "5695930315 |Systolic Blood Pressure (Observable Entity)| + 5695444314 |Procedure on upper arm| + 5695444316 |Right upper arm structure (body structure)|" }, 
+		{ "_id": NumberInt(5695930307), "desc": "5695444313 |Diastolic Blood Pressure (Observable Entity)| + 5695444314 |Procedure on upper arm| + 5695444316 |Right upper arm structure (body structure)|" }, 
+		{ "_id": NumberInt(5695930310), "desc": "5695930315 |Systolic Blood Pressure (Observable Entity)| + 5695444314 |Procedure on upper arm| + 5695444315 |Left upper arm structure (body structure)|" }, 
+		{ "_id": NumberInt(5695930313), "desc": "5695444313 |Diastolic Blood Pressure (Observable Entity)| + 5695444314 |Procedure on upper arm| + 5695444315 |Left upper arm structure (body structure)|" },
 		
-		{ "_id": NumberLong(5695444313), "desc": "271650006 |Diastolic Blood Pressure (Observable Entity)|" },
-		{ "_id": NumberLong(5695444314), "desc": "118704009 |Procedure on upper arm|" },
-		{ "_id": NumberLong(5695444315), "desc": "368208006 |Left upper arm structure (body structure)|" },
-		{ "_id": NumberLong(5695444316), "desc": "368209003 |Right upper arm structure (body structure)|" },
-		{ "_id": NumberLong(5695930315), "desc": "271649006 |Systolic Blood Pressure (Observable Entity)|" }
+		{ "_id": NumberInt(5695444313), "desc": "271650006 |Diastolic Blood Pressure (Observable Entity)|" },
+		{ "_id": NumberInt(5695444314), "desc": "118704009 |Procedure on upper arm|" },
+		{ "_id": NumberInt(5695444315), "desc": "368208006 |Left upper arm structure (body structure)|" },
+		{ "_id": NumberInt(5695444316), "desc": "368209003 |Right upper arm structure (body structure)|" },
+		{ "_id": NumberInt(5695930315), "desc": "271649006 |Systolic Blood Pressure (Observable Entity)|" }
 
 	]
 );
